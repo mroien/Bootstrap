@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Tutorial Navigation Bar Dropdown</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/boogaatstrap.min.js"></script>
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+
+
+<a name="navbarDrop"></a>
+<!-- navbar-inverse changed the color of the navbar -->
+<nav class="navbar navbar-inverse">
+    <div class="containter">
+        <!-- LOGO -->
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Company Logo</a>
+        </div>
+
+        <!-- Menu Items -->
+        <div>
+            <ul class="nav navbar-nav">
+            <!-- class="active" highlights what page you're on -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="responsive.html">Responsive</a></li>
+                <li class="active"><a href="navbar.html">NavBar</a></li>
+
+                <!-- Drop Down Menu -->
+                <li class="dropdown">
+                <!-- dropdown-toggle and data-toggle make the dropdown functionality treats it like dropdown not link-->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Profile <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Friends</a></li>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+   <h1>Navigation Bar DropDown</h1>
+
+        <div class="col-lg-4">
+            <img src="../images/dad.jpg" class="img-responsive img-circle">
+            </div><div class="col-lg-4">
+            <img src="../images/tesla3.jpg" class="img-responsive img-rouned">
+        </div><div class="col-lg-4">
+            <img src="../images/Ghibli.jpg" class="img-responsive img-thumbnail">
+        </div>
+<div>
+<a href="#toc">Top</a>
+</div>
+</div>
+
+</body>
+
+
+</html>

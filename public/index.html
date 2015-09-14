@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Tutorial</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/boogaatstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bootstrap Tutorial</h1>
+        <table class="table table-striped">
+            <thead>
+                <h4>
+            <a name="toc">Table of Contents</a>
+                </h4>
+            </thead>
+            <tbody>
+                <tr>
+                    <tr>
+                        <td>Other Pages</td>
+                    </tr>
+                    <td>
+                        <a href="responsive.html">Responsive Image and Video</a>
+                    
+                        -
+                    
+                        <a href="navbar.html">NavBar</a>
+                        -
+
+                        <a href="navbarDrop.html">NavBar DropDown</a>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Local Page
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#dynamic">Dynamic Columns</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#mark">Mark and Blockquote</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#discription">Description List</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#formatting">Text Formatting</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#color">CSS Color Class</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#tables">Tables</a></td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+        <h4><a name="dynamic">Dynamic Columns</a></h4>
+        <div class="row">
+            <!-- Dynamic columns for a full monitor with md -->
+            <div class="col-md-4 red">Left</div>
+            <div class="col-md-4 blue">Middle</div>
+            <div class="col-md-4 pink">Right</div>
+        </div>
+        <h4><a name="mark">Mark and Blockquote</a></h4>
+        <p>You can highlight
+            <mark>words or text</mark> using the mark tag</p>
+        <blockquote>
+            <p>Blockquotes can format text for you</p>
+            <footer>Me</footer>
+        </blockquote>
+        <h4><a name="discription">Description List</a></h4>
+        <h6>What to do for fun</h6>
+        <dl>
+            <dt>Indoors</dt>
+            <dd>- watch TV</dd>
+            <dd>- learn code</dd>
+            <dd>- take a nap</dd>
+            <dt>Outdoors</dt>
+            <dd>- play golf</dd>
+            <dd>- go for walk</dd>
+            <dd>- have a nice cigar</dd>
+        </dl>
+        <h4><a name="formatting">Text formatting</a></h4>
+        <p>You can use the code tag <code>function()</code></p>
+        <p>Or you can use the pre tag
+            <pre>
+        var 1 = "hello"
+        var 2 = "world"
+        console.log(1 + 2)
+        output "Hello World"
+        </pre>
+        </p>
+        <p>You can also have keyboard input with the kbd tag
+            <kbd>Command+Shift+3</kbd> for screenshot</p>
+        <h4><a name="color">Build in Color Classes</a></h4>
+        <dl>
+            <dt>Text</dt>
+            <dd>
+                <p class="text-muted">Text Muted</p>
+            </dd>
+            <dd>
+                <p class="text-success">Congrats you fill out for correctly</p>
+            </dd>
+            <dd>
+                <p class="text-danger">DANGER</p>
+            </dd>
+            <dd>
+                <p class="text-primary">Primary</p>
+            </dd>
+            <dt>Background</dt>
+            <dd>
+                <p class="bg-muted">Text Muted</p>
+            </dd>
+            <dd>
+                <p class="bg-success">Congrats you fill out for correctly</p>
+            </dd>
+            <dd>
+                <p class="bg-danger">DANGER</p>
+            </dd>
+            <dd>
+                <p class="bg-primary">Primary</p>
+            </dd>
+        </dl>
+        <h4><a name="tables">Tables</a></h4>
+        <h5>Simple Table</h5>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tim Oien</td>
+                    <td>34</td>
+                    <td>5,439</td>
+                </tr>
+                <tr>
+                    <td>Bonnie Oien</td>
+                    <td>50</td>
+                    <td>3,467</td>
+                </tr>
+                <tr>
+                    <td>Nicole Oien</td>
+                    <td>16</td>
+                    <td>8,783</td>
+                </tr>
+            </tbody>
+        </table>
+        <h5>Condensed Table</h5>
+        <!-- Using two classes first table says its a table second is for formatting -->
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tim Oien</td>
+                    <td>34</td>
+                    <td>5,439</td>
+                </tr>
+                <tr>
+                    <td>Bonnie Oien</td>
+                    <td>50</td>
+                    <td>3,467</td>
+                </tr>
+                <tr>
+                    <td>Nicole Oien</td>
+                    <td>16</td>
+                    <td>8,783</td>
+                </tr>
+            </tbody>
+        </table>
+        <h5>striped Table</h5>
+        <!-- Using two classes first table says its a table second is for formatting -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tim Oien</td>
+                    <td>34</td>
+                    <td>5,439</td>
+                </tr>
+                <tr>
+                    <td>Bonnie Oien</td>
+                    <td>50</td>
+                    <td>3,467</td>
+                </tr>
+                <tr>
+                    <td>Nicole Oien</td>
+                    <td>16</td>
+                    <td>8,783</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="#toc">Top</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+</body>
+
+</html>
