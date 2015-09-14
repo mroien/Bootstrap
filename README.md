@@ -64,3 +64,6 @@ class="img-responsive"
     <iframe class="embed-responsive-item"src="https://www.youtube.com/embed?v=ClHu3XQBnGU&list=PL6gx4Cwl9DGBPw1sFodruZUPheWVKchlM&index=5"></iframe>
 </div>
 ```
+
+## NavBar
+- Simple add classes see example
