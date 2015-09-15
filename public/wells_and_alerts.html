@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Tutorial Wells and Alert Boxes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+
+
+<a name="navbarDrop"></a>
+<!-- navbar-inverse changed the color of the navbar -->
+<nav class="navbar navbar-inverse">
+    <div class="containter">
+        <!-- LOGO -->
+        <div class="navbar-header">
+        <!-- Add toggle button for NavBar when screen gets small otherwise leaves navBar normal -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+        <!-- Have to add 3 span tags to get the 3 bars -->
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+
+        </button>
+            <a href="#" class="navbar-brand">Company Logo</a>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav">
+            <!-- class="active" highlights what page you're on -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="responsive.html">Responsive</a></li>
+                <li class="active"><a href="navbar.html">NavBar</a></li>
+
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+   <h1>Wells and Alert Boxes</h1>
+
+    <div class="well">Basic Well</div>
+    <div class="well well-sm">Small Well</div>
+    <!--Success gives you a green box -->
+    <div class="alert alert-success">Congratulations, you've just won the game</div>
+    <!-- Info gives you a blue box &times gives you the X to close the well -->
+    <div class="alert alert-info"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times</a>Info bar</div>
+    <!-- Danger gives you a red well. fade in 2 classes together give automation. -->
+    <div class="alert alert-danger fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times</a>Danger bar</div>
+
+
+</div>
+
+</body>
+
+
+</html>
